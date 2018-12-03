@@ -1,3 +1,4 @@
+#include "MyStats.h"
 
 template <class T>
 MyStats<T>::MyStats()

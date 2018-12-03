@@ -1,3 +1,6 @@
+#ifndef _MYSTATS_H_
+#define _MYSTATS_H_
+
 #pragma once
 #include <cstdlib>
 #include <iostream>
@@ -49,7 +52,9 @@ public:
 	T findSmallest();
 };
 
-#include "MyStats.tpp"
+#include "MyStats.cpp"
+
+#endif
 //
 //template <class T>
 //MyStats<T>::MyStats()

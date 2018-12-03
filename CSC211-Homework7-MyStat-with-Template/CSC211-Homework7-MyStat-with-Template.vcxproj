@@ -121,7 +121,7 @@
     <ClInclude Include="MyStats.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="MyStats.tpp" />
+    <None Include="MyStats.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
